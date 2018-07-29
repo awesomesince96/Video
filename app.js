@@ -15,7 +15,7 @@ import {
 } from "react-native";
 import io from "socket.io-client";
 let socket = io.connect(
-  "http://192.168.100.131:8080",
+  "http://192.168.43.247:8080",
   { transports: ["websocket"] }
 );
 import {
